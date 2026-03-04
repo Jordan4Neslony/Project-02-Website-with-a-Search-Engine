@@ -1,10 +1,80 @@
 $black: rgb(38, 38, 51);
+$white: rgb(224, 224, 224);
+$indigo: rgb(17, 2, 27); 
 body{
     img{
-        background: black;
+        background: $black;
     }
-    background: black;
+    background: $black;
 }
-
+.basic-container{
+    background: $white;
+    color:dimgrey;
+}
+.intro-container{
+    background: $white;
+    color:dimgrey;
+    height: 300px;
+    max-width: 900px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: $black;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.intro-image-border{
+    margin-top: 20px;
+    border-width: 10px;
+    border-style:double;
+    border-color: $black;
+    background: $white;
+    color:dimgrey;
+    border-radius: 0px;
+}
+.spacer{
+    background: $indigo;
+    margin-top: 40px;
+    padding: 40px;
+    border-color: $indigo;
+}
+.head-spacer{
+    background: $indigo;
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding: 40px;
+    height: 120px;
+}
+.foot-spacer{
+    background: $indigo;
+    margin-top: 40px;
+    padding: 40px;
+    height: 120px;
+}
+.fixed-footer-bar{
+    background: $black;
+    height: 120px;
+}
+.about-me-image-border{
+    margin-top: 20px;
+    border-width: 10px;
+    border-style:inset;
+    border-color: $black;
+    background: $white;
+    color:dimgrey;
+    border-radius: 0px;
+}
+.about-me-container{
+    background: $white;
+    color:dimgrey;
+    min-height: 300px;
+    max-height: 500px;
+    max-width: 900px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: $black;
+    border-radius: 10px;
+    margin-top: 60px;
+}
 
 
