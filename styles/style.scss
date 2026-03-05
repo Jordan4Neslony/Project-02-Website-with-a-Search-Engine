@@ -18,10 +18,23 @@ body{
     margin-top: 60px;
     margin-bottom: 50px;
 }
-.jif-container{
+.search-container{
     background: $indigo;
     color: white;
     max-height: 1400px;
+    min-height: 100px;
+    max-width: 900px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.jif-container{
+    background: $indigo;
+    color: white;
+    max-height: 5000px;
     min-height: 100px;
     max-width: 900px;
     border-width: 10px;
