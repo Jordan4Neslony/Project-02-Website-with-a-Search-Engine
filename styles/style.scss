@@ -1,24 +1,32 @@
-$black: rgb(38, 38, 51);
-$white: rgb(224, 224, 224);
+$black: rgb(37, 37, 50);
 $indigo: rgb(17, 2, 27); 
 body{
-    img{
-        background: $black;
-    }
     background: $black;
-}
-.basic-container{
-    background: $white;
-    color:dimgrey;
+      font-family: "Cascadia Mono", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
 }
 .intro-container{
-    background: $white;
-    color:dimgrey;
+    background: $indigo;
+    color:white;
     height: 300px;
     max-width: 900px;
     border-width: 10px;
     border-style: solid;
-    border-color: $black;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.jif-container{
+    background: $indigo;
+    color: white;
+    max-height: 1400px;
+    min-height: 100px;
+    max-width: 900px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
     border-radius: 10px;
     margin-top: 60px;
     margin-bottom: 50px;
@@ -27,8 +35,8 @@ body{
     margin-top: 20px;
     border-width: 10px;
     border-style:double;
-    border-color: $black;
-    background: $white;
+    border-color: black;
+    background: white;
     color:dimgrey;
     border-radius: 0px;
 }
@@ -36,12 +44,14 @@ body{
     background: $indigo;
     margin-top: 40px;
     padding: 40px;
-    border-color: $indigo;
+    border-width: 10px;
+    border-style:inset;
+    border-color: white;
 }
 .head-spacer{
     background: $indigo;
     margin-top: 0px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     padding: 40px;
     height: 120px;
 }
@@ -52,29 +62,31 @@ body{
     height: 120px;
 }
 .fixed-footer-bar{
-    background: $black;
-    height: 120px;
+    background: black;
+    height: 90px;
 }
 .about-me-image-border{
     margin-top: 20px;
     border-width: 10px;
     border-style:inset;
-    border-color: $black;
-    background: $white;
+    border-color: black;
+    background: white;
     color:dimgrey;
     border-radius: 0px;
 }
-.about-me-container{
-    background: $white;
-    color:dimgrey;
-    min-height: 300px;
-    max-height: 500px;
-    max-width: 900px;
+.about-me-column{
+    background: rgb(17, 2, 27);
+    color:white;
+    height: 300px;
+    max-width: 450px;
     border-width: 10px;
     border-style: solid;
-    border-color: $black;
+    border-color: white;
     border-radius: 10px;
-    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
-
+.about-me-container{
+    margin-top: 60px;
+    margin-bottom: 100px;
+}

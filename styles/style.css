@@ -4,12 +4,6 @@ body{
       font-optical-sizing: auto;
       font-style: normal;
 }
-
-
-.basic-container{
-    background: rgb(224, 224, 224);
-    color:dimgrey;
-}
 .intro-container{
     background: rgb(17, 2, 27);
     color:rgb(255, 255, 255);
