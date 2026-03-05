@@ -75,15 +75,19 @@ body{
     color:dimgrey;
     border-radius: 0px;
 }
-.about-me-container{
-    background: rgb(224, 224, 224);
-    color:dimgrey;
-    min-height: 300px;
-    max-height: 500px;
-    max-width: 900px;
+.about-me-column{
+    background: rgb(17, 2, 27);
+    color:rgb(255, 255, 255);
+    height: 300px;
+    max-width: 450px;
     border-width: 10px;
     border-style: solid;
-    border-color: black;
+    border-color: white;
     border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about-me-container{
     margin-top: 60px;
+    margin-bottom: 100px;
 }
