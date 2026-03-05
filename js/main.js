@@ -14,7 +14,7 @@ function Search(){
         let html = '';
         data.data.forEach(gif => {
             const url = gif.images.fixed_height.url;
-            html += `<img src="${url}" alt="GIF"/>`;
+            html += `<img src="${url}" alt="GIF" class="intro-image-border"/>`;
         });
         document.getElementById('Row-Column-Layout').innerHTML = html;
     })

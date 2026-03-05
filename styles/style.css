@@ -30,8 +30,9 @@ body{
     background: rgb(17, 2, 27);
     margin-top: 40px;
     padding: 40px;
-    border-color: rgb(17, 2, 27);
-    
+    border-width: 10px;
+    border-style:inset;
+    border-color: rgb(255, 255, 255);
 }
 .head-spacer{
     background: rgb(17, 2, 27);
@@ -50,6 +51,7 @@ body{
     background: black;
     height: 120px;
 }
+
 .about-me-image-border{
     margin-top: 20px;
     border-width: 10px;
