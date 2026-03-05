@@ -48,10 +48,26 @@
     </nav>
 
     <!--Search Bar and Submit-->
-    <form style="display: flex;" action="">
-        <input style="padding-bottom: 5px;" type="text" placeholder="Search.." name="image-search" id="Search-Bar">
-        <input class="btn btn-secondary" type="submit" value="Submit" id="Search-Button">
-    </form>
+    <div class="jif-container mx-auto">
+        <div class="container mx-auto">
+            <div class="row justify-content-center align-items-center g-3">
+                <div class="col flex-column align-items-center">
+                    <div class="description text-start">
+                        <!--Heading Text-->
+                        <h1>Hi! Find gifs here! -- ></h1>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <form style="display: flex;" action="">
+                        <input style="padding-bottom: 5px;" type="text" placeholder="Search Gifs.." name="image-search"
+                            id="Search-Bar">
+                        <input class="btn btn-secondary" type="submit" value="Search" id="Search-Button">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!--Row Column Layout for the gifs-->
     <div class="flex-column" id="Row-Column-Layout">
@@ -62,7 +78,7 @@
             <div class="column"></div>
         </div>
     </div>
-
+    <div style="margin-bottom: 100px;"></div>
     <!-- Fixed Bottom Spacer-->
     <div class="fixed-bottom">
         <div class="fixed-footer-bar">
