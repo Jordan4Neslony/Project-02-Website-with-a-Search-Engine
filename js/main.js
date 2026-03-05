@@ -1,4 +1,6 @@
+//Adds an event listener to the gif search button for an on click event.
 document.getElementById("Search-Button").addEventListener("click", function(event) {
+    //Used to prevent the form from bugging out
     event.preventDefault();
     Search();
 });
@@ -16,6 +18,7 @@ function Search(){
             const url = gif.images.fixed_height.url;
             html += `<img src="${url}" alt="GIF" class="intro-image-border"/>`;
         });
+        //Adds the html to the row-column layout
         document.getElementById('Row-Column-Layout').innerHTML = html;
     })
     .catch(error => console.error('Error:', error));

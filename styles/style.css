@@ -1,6 +1,11 @@
 body{
     background: rgb(38, 38, 51);
+      font-family: "Cascadia Mono", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
 }
+
+
 .basic-container{
     background: rgb(224, 224, 224);
     color:dimgrey;
@@ -20,8 +25,8 @@ body{
 .jif-container{
     background: rgb(17, 2, 27);
     color:rgb(255, 255, 255);
-    max-height: 100px;
-    min-height: 80px;
+    max-height: 1400px;
+    min-height: 100px;
     max-width: 900px;
     border-width: 10px;
     border-style: solid;
@@ -63,9 +68,6 @@ body{
 .fixed-footer-bar{
     background: black;
     height: 90px;
-}
-.search-container{
-
 }
 .about-me-image-border{
     margin-top: 20px;
