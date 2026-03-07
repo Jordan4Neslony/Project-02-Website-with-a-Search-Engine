@@ -10,7 +10,7 @@ This website aims to provide users with accurate gifs corresponding to the text 
 - The main feature of this website is its search bar and submit button. Upon typing in a phrase it will send a request to giphy via its api and then return images that will display on the screen for the user to peruse.
 - Additionally this website is accesible for mobile devices and lower screen resoulution.
 
-# Technologies: HTML, CSS, and Bootstrap.
+# Technologies: HTML, CSS, SCSS, Bootstrap, and JavaScript.
 
 # Ideas for Future Improvement: 
 1. Having more descriptive code comments, especially for what is located in the style files.
