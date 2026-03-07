@@ -229,4 +229,17 @@ body {
     margin: 0 auto;
     display: block;
   }
+  .intro-container {
+    background: rgb(17, 2, 27);
+    color: white;
+    min-height: 300px;
+    max-height: 600px;
+    max-width: 900px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */

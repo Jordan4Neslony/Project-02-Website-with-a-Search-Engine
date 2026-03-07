@@ -167,6 +167,9 @@ body {
     text-decoration: underline;
 }
 //For when the screen is as a small as a mobile device, the style will accomodate.
+// Also I would put 320px as the size but i cant make a window that small and my 
+// phone screen is bigger than 320px for testing it. It does still work, if the screen is
+// less than 500px which is will also work if it is less than 320px.
 @media screen and (max-width: 500px) {
     .navigational-bar {
         display: flex;
@@ -234,4 +237,17 @@ body {
         margin: 0 auto;
         display: block;
     }
+    .intro-container {
+    background: $indigo;
+    color: white;
+    min-height: 300px;
+    max-height: 600px;
+    max-width: 900px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
 }
