@@ -167,7 +167,7 @@ body {
   text-decoration: underline;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 480px) {
   .navigational-bar {
     display: flex;
     flex-direction: column;
