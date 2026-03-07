@@ -22,4 +22,4 @@ This website aims to provide users with accurate gifs corresponding to the text 
 2. As a friend in an online group chat, I want to send funny and on-topic memes, so that my friends and I can laugh.
 3. As a statistician, I want to see the gifs related to a specific name, so that I can see the impact internet culture has had on gifs. 
 
-# GitHub Pages Link: 
+# GitHub Pages Link: https://jordan4neslony.github.io/Project-02-Website-with-a-Search-Engine/
