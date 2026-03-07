@@ -232,8 +232,7 @@ body {
   .intro-container {
     background: rgb(17, 2, 27);
     color: white;
-    min-height: 300px;
-    max-height: 600px;
+    height: 400px;
     max-width: 900px;
     border-width: 10px;
     border-style: solid;
