@@ -33,6 +33,7 @@ body {
     border-radius: 10px;
     margin-top: 60px;
     margin-bottom: 50px;
+    max-height: fit-content;
 }
 
 .jif-container {
@@ -57,6 +58,7 @@ body {
     background: white;
     color: dimgrey;
     border-radius: 0px;
+    max-height:max-content;
 }
 
 .spacer {
@@ -133,7 +135,7 @@ body {
 }
 
 .nav-title {
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: bold;
     margin-right: 40px;
     margin-top: 20px;
@@ -148,11 +150,11 @@ body {
     padding: 0;
     margin-top: 20px;
 }
-
+//So the nav links look good.
 .nav-list li {
     margin-right: 30px;
 }
-
+//Nav bar links styling
 .nav-list a {
     color: white;
     text-decoration: none;
@@ -164,8 +166,8 @@ body {
 .nav-list a:hover {
     text-decoration: underline;
 }
-
-@media screen and (max-width: 700px) {
+//For when the screen is as a small as a mobile device, the style will accomodate.
+@media screen and (max-width: 320px) {
     .navigational-bar {
         display: flex;
         flex-direction: column;
@@ -200,5 +202,36 @@ body {
         margin-bottom: 20px;
         padding: 40px;
         height: 120px;
+    }
+    .jif-container {
+        background: $indigo;
+        color: white;
+        max-height: 10000px;
+        min-height: 100px;
+        max-width: 600px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: white;
+        border-radius: 10px;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+    //Used for the Gif row column layout, not the most scalable soulution but it works
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    //Used for the Gif row column layout, not the most scalable soulution but it works
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #Row-Column-Layout img {
+        width: 100%;
+        max-width: 350px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
     }
 }
