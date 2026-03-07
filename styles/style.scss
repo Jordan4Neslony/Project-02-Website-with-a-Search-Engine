@@ -1,14 +1,16 @@
 $black: rgb(37, 37, 50);
-$indigo: rgb(17, 2, 27); 
-body{
+$indigo: rgb(17, 2, 27);
+
+body {
     background: $black;
-      font-family: "Cascadia Mono", sans-serif;
-      font-optical-sizing: auto;
-      font-style: normal;
+    font-family: "Cascadia Mono", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-.intro-container{
+
+.intro-container {
     background: $indigo;
-    color:white;
+    color: white;
     height: 300px;
     max-width: 900px;
     border-width: 10px;
@@ -18,7 +20,8 @@ body{
     margin-top: 60px;
     margin-bottom: 50px;
 }
-.search-container{
+
+.search-container {
     background: $indigo;
     color: white;
     max-height: 1400px;
@@ -31,7 +34,8 @@ body{
     margin-top: 60px;
     margin-bottom: 50px;
 }
-.jif-container{
+
+.jif-container {
     background: $indigo;
     color: white;
     max-height: 5000px;
@@ -44,52 +48,59 @@ body{
     margin-top: 60px;
     margin-bottom: 50px;
 }
-.intro-image-border{
+
+.intro-image-border {
     margin-top: 20px;
     border-width: 10px;
-    border-style:double;
+    border-style: double;
     border-color: black;
     background: white;
-    color:dimgrey;
+    color: dimgrey;
     border-radius: 0px;
 }
-.spacer{
+
+.spacer {
     background: $indigo;
     margin-top: 40px;
     padding: 40px;
     border-width: 10px;
-    border-style:inset;
+    border-style: inset;
     border-color: white;
 }
-.head-spacer{
+
+.head-spacer {
     background: $indigo;
     margin-top: 0px;
     margin-bottom: 20px;
     padding: 40px;
     height: 120px;
 }
-.foot-spacer{
+
+.foot-spacer {
     background: $indigo;
     margin-top: 40px;
     padding: 40px;
     height: 120px;
 }
-.fixed-footer-bar{
+
+.fixed-footer-bar {
     background: black;
     height: 90px;
 }
-.about-me-image-border{
+
+.about-me-image-border {
     margin-top: 20px;
     border-width: 10px;
-    border-style:inset;
+    border-style: inset;
     border-color: black;
     background: white;
-    color:dimgrey;
+    color: dimgrey;
     border-radius: 0px;
 }
-.about-me-column{
+
+.about-me-column {
     background: rgb(17, 2, 27);
-    color:white;
+    color: white;
     height: 300px;
     max-width: 450px;
     border-width: 10px;
@@ -99,7 +110,95 @@ body{
     margin-left: 10px;
     margin-right: 10px;
 }
-.about-me-container{
+
+.about-me-container {
     margin-top: 60px;
     margin-bottom: 100px;
+}
+
+// Navigation Bar Styles
+.navigational-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background: $indigo;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 80px;
+    padding: 0 40px;
+}
+
+.nav-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.nav-list li {
+    margin-right: 30px;
+}
+
+.nav-list a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    transition: text-decoration 0.2s;
+}
+
+.nav-list a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+    .navigational-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        vertical-align: auto;
+        max-height: 800px;
+        min-height: 200px;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    }
+
+    .nav-list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        margin-top: 0px;
+    }
+
+    .nav-list li {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .head-spacer {
+        background: $indigo;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 40px;
+        height: 120px;
+    }
 }
